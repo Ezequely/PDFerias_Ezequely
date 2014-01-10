@@ -73,15 +73,15 @@ public class PlacesService {
 			urlString.append(Double.toString(latitude));
 			urlString.append(",");
 			urlString.append(Double.toString(longitude));
-			urlString.append("&radius=500");
-			urlString.append("&rankby");
+			urlString.append("&radius=1000");
+			//urlString.append("&rankby");
 			urlString.append("&sensor=true&key=" + API_KEY);
 		} else {
 			urlString.append("&location=");
 			urlString.append(Double.toString(latitude));
 			urlString.append(",");
 			urlString.append(Double.toString(longitude));
-			urlString.append("&radius=500");
+			urlString.append("&radius=1000");
 			urlString.append("&types=" + place);
 			urlString.append("&sensor=true&key=" + API_KEY);
 		}
