@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">PDistribuida</string>
+    <string name="action_settings" translatable="false">Configurar</string>
+    <string-array name="places">
+        <item></item>
+        <item >ATM</item>
+        <item >Bank</item>
+        <item >Cafe</item>
+        <item>Beach</item>
+        <item >Hospital</item>
+        <item >Pharmacy</item>
+        <item >Police</item>
+        <item >Restaurant</item>
+        <item >Shopping Mall</item>
+    </string-array>
+
+</resources>
