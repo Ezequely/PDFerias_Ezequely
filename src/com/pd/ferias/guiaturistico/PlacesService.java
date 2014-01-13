@@ -74,7 +74,7 @@ public class PlacesService {
 			urlString.append(",");
 			urlString.append(Double.toString(longitude));
 			urlString.append("&radius=1000");
-			//urlString.append("&rankby");
+			//urlString.append("&rankby=distance");
 			urlString.append("&sensor=true&key=" + API_KEY);
 		} else {
 			urlString.append("&location=");

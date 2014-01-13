@@ -90,6 +90,8 @@ public class MainActivity extends Activity {
 			super.onPostExecute(result);
 			mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
             mMap.setMyLocationEnabled(true);
+            mMap.setBuildingsEnabled(true);
+            mMap.setTrafficEnabled(true);
             mMap.getUiSettings().setZoomControlsEnabled(false);
             mMap.getUiSettings().setZoomGesturesEnabled(true);
             mMap.getUiSettings().setMyLocationButtonEnabled(true);
