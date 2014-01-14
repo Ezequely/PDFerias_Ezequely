@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "guiaturistico"
+        }, 
+        "guiaturistico": {
+            "applicationId": "7fid9iVxy3oA9N5xrQ6bPmsKJ3MotTdwW9ncrIfn", 
+            "masterKey": "6whLUMIImyJMUgkRamkmBuuks565Ln69xRII2MaA"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.16"
+    }
+}
