@@ -235,26 +235,26 @@ containing a value of this type.
         /**   Title for notification shown when GooglePlayServices needs to be
         enabled for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_needs_enabling_title=0x7f060010;
+        public static final int auth_client_needs_enabling_title=0x7f060015;
         /**   Title for notification shown when GooglePlayServices needs to be
         installed for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_needs_installation_title=0x7f060011;
+        public static final int auth_client_needs_installation_title=0x7f060016;
         /**   Title for notification shown when GooglePlayServices needs to be
         udpated for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_needs_update_title=0x7f060012;
+        public static final int auth_client_needs_update_title=0x7f060017;
         /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
          */
-        public static final int auth_client_play_services_err_notification_msg=0x7f060013;
+        public static final int auth_client_play_services_err_notification_msg=0x7f060018;
         /**   Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
          */
-        public static final int auth_client_requested_by_msg=0x7f060014;
+        public static final int auth_client_requested_by_msg=0x7f060019;
         /**   Title for notification shown when a bad version of GooglePlayServices
         has been installed and needs correction for an application to work.
         [CHAR LIMIT=70] 
          */
-        public static final int auth_client_using_bad_version_title=0x7f06000f;
+        public static final int auth_client_using_bad_version_title=0x7f060014;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -283,24 +283,35 @@ containing a value of this type.
         Google Play services (from Play Store) [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_install_title=0x7f060000;
-        public static final int common_google_play_services_invalid_account_text=0x7f060018;
-        public static final int common_google_play_services_invalid_account_title=0x7f060017;
-        public static final int common_google_play_services_network_error_text=0x7f060016;
-        public static final int common_google_play_services_network_error_title=0x7f060015;
+        /**  Message in confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_invalid_account_text=0x7f06000c;
+        /**  Title of confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_invalid_account_title=0x7f06000b;
+        /**  Message in confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_network_error_text=0x7f06000a;
+        /**  Title of confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_network_error_title=0x7f060009;
         /**  Message in confirmation dialog informing user there is an unknown issue in Google Play
         services [CHAR LIMIT=NONE] 
          */
-        public static final int common_google_play_services_unknown_issue=0x7f060009;
-        public static final int common_google_play_services_unsupported_date_text=0x7f060019;
+        public static final int common_google_play_services_unknown_issue=0x7f06000d;
+        /**  Message in confirmation dialog informing user that date on the device is not correct,
+    causing certificate checks to fail. [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_unsupported_date_text=0x7f060010;
         /**  Message in confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=NONE] 
          */
-        public static final int common_google_play_services_unsupported_text=0x7f06000b;
+        public static final int common_google_play_services_unsupported_text=0x7f06000f;
         /**  Title of confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_unsupported_title=0x7f06000a;
+        public static final int common_google_play_services_unsupported_title=0x7f06000e;
         /**  Button in confirmation dialog for updating Google Play services [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_update_button=0x7f06000c;
+        public static final int common_google_play_services_update_button=0x7f060011;
         /**  Message in confirmation dialog informing user that they need to update
         Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
@@ -311,10 +322,10 @@ containing a value of this type.
         public static final int common_google_play_services_update_title=0x7f060007;
         /**  Sign-in button text [CHAR LIMIT=15] 
          */
-        public static final int common_signin_button_text=0x7f06000d;
+        public static final int common_signin_button_text=0x7f060012;
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
-        public static final int common_signin_button_text_long=0x7f06000e;
+        public static final int common_signin_button_text_long=0x7f060013;
     }
     public static final class style {
         /** 
